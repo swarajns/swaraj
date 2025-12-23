@@ -1,7 +1,7 @@
 'use client'
 
 import { useRef } from 'react'
-import { useFrame } from '@react-three/fiber'
+import { useFrame, extend } from '@react-three/fiber'
 import { Torus, Box, Sphere, Octahedron } from '@react-three/drei'
 import * as THREE from 'three'
 
