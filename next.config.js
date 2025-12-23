@@ -1,17 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    esmExternals: 'loose'
-  },
   transpilePackages: [
     'three',
     '@react-three/fiber',
     '@react-three/drei'
   ],
   webpack: (config) => {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      three: require.resolve('three')
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      fs: false
     }
     return config
   }

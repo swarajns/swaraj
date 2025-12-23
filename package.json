@@ -8,12 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.0.0-rc.0",
+    "next": "14.2.15",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "three": "0.169.0",
-    "@react-three/fiber": "9.1.2",
-    "@react-three/drei": "9.114.0",
+    "three": "0.158.0",
+    "@react-three/fiber": "8.16.8",
+    "@react-three/drei": "9.88.13",
     "framer-motion": "11.2.10",
     "lucide-react": "0.400.0"
   },
@@ -21,7 +21,7 @@
     "@types/node": "20.14.10",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
-    "@types/three": "0.169.0",
+    "@types/three": "0.158.0",
     "typescript": "5.4.5",
     "tailwindcss": "3.4.10",
     "postcss": "8.4.38",
