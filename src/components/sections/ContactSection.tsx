@@ -149,7 +149,7 @@ export default function ContactSection() {
                   { Icon: Linkedin, href: 'https://linkedin.com', color: 'hover:bg-blue-600' },
                   { Icon: Github, href: 'https://github.com', color: 'hover:bg-slate-700' },
                   { Icon: Twitter, href: 'https://twitter.com', color: 'hover:bg-sky-500' },
-              { Icon: Instagram, href:'https://www.instagram.com/swaraj_ns/', label: 'Instagram'},
+              { Icon: Instagram, href:'https://www.instagram.com/swaraj_ns_/', label: 'Instagram'},
                 ].map(({ Icon, href, color }, index) => (
                   <motion.a
                     key={index}

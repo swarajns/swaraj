@@ -109,7 +109,7 @@ export default function HeroSection() {
               { Icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
               { Icon: Github, href: 'https://github.com', label: 'GitHub' },
               { Icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-              { Icon: Instagram, href:'https://www.instagram.com/swaraj_ns/', label: 'Instagram'},
+              { Icon: Instagram, href:'https://www.instagram.com/swaraj_ns_/', label: 'Instagram'},
             ].map(({ Icon, href, label }) => (
               <motion.a
                 key={label}
